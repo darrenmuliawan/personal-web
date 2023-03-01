@@ -80,4 +80,11 @@ a:hover {
 .app {
   min-height: 768px;
   min-width: 1024px;
+  max-height: 100vh;
+  overflow-y: hidden;
+  display: flex;
+}
+
+#root {
+  overflow-y: hidden;
 }
