@@ -71,3 +71,8 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.app {
+  min-height: 768px;
+  min-width: 1024px;
+}

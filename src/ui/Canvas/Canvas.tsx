@@ -10,7 +10,9 @@ export const Canvas = (props: CanvasProps) => {
   } = props;
 
   return (
-    <div>
+    <div
+      className='h-[100vh] min-w-[100vw] overflow-y-hidden overflow-x-auto py-10 flex'
+    >
       {children}
     </div>
   )
