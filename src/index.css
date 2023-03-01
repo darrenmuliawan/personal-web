@@ -72,6 +72,11 @@ button:focus-visible {
   }
 }
 
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .app {
   min-height: 768px;
   min-width: 1024px;
