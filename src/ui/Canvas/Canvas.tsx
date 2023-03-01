@@ -11,7 +11,8 @@ export const Canvas = (props: CanvasProps) => {
 
   return (
     <div
-      className='h-[100vh] min-w-[100vw] overflow-y-hidden overflow-x-auto py-10 flex'
+      id='canvas'
+      className='h-[100vh] overflow-y-hidden overflow-x-auto py-10 flex'
     >
       {children}
     </div>

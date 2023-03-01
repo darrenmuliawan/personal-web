@@ -6,7 +6,7 @@ import PepoFrog from '../../assets/sticker_6.webp';
 export const About = () => {
   return (
     <div
-      className='px-10 w-[480px]'
+      className='px-10 min-w-[480px] max-w-[480px]'
     >
       <div
         className='relative h-[240px]'

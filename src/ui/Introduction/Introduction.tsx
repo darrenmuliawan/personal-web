@@ -5,7 +5,7 @@ import BabyMedici from '../../assets/baby_medici.jpeg';
 export const Introduction = () => {
   return (
     <div
-      className='px-10 w-[690px] h-full flex flex-col'
+      className='px-10 min-w-[690px] max-w-[690px] h-full flex flex-col'
     >
       <div
         className='flex flex-col'

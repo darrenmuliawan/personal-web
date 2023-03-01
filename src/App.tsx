@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
-import { About, Canvas, Introduction } from './ui'
+import { About, Canvas, Experience, Introduction } from './ui'
 import { Articles } from './ui/Articles'
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
 
   useEffect(() => {
     // set scroll to horizontal
-    const app = document.getElementById('app');
+    const app = document.getElementById('canvas');
     app?.addEventListener("wheel", (e) => {
       if (e.deltaY > 0) {
         app.scrollLeft += 30;
@@ -26,11 +26,11 @@ function App() {
         <Introduction />
         <About />
         <Articles />
-      </Canvas>
-      <Canvas>
+        <Experience />
         <Introduction />
         <About />
         <Articles />
+        <Experience />
       </Canvas>
     </div>
   )
