@@ -21,7 +21,7 @@ export const About = () => {
         />
       </div>
       <div>
-        <p className='mb-4 font-bold'>allow me to introduce myself</p>
+        <p className='mb-4 font-bold underline'>allow me to introduce myself</p>
         <p className='mb-4'>my name is Darren Muliawan and i am currently living in Indonesia. i have been working as software engineer in several companies in the United States after I got my bachelor's degree from <a>University of Illinois, Urbana-Champaign</a> in mid 2019.</p>
         <p className='mb-4'>i like to learn about technology, psychology, fitness, history, art, economics and many more!</p>
         <p className='mb-4'>keep scrolling to see my past work and experiences!</p>
